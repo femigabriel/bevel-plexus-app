@@ -1,0 +1,101 @@
+    
+    .content-title {
+        color: #4a4b65;
+        font-size: 16px;
+        line-height: 1;
+        margin-bottom: 32px;
+      }
+      .content-title h2 {
+        font-size: 16px;
+        font-weight: 500;
+      }
+      .dashbox-content {
+        display: flex;
+        justify-content: space-between;
+      }
+      /* avatar img and flag */
+      .user-details {
+        display: flex;
+      }
+      .user-avatar {
+        display: flex;
+        flex-direction: column;
+      }
+      .avatar img {
+        width: 55px;
+      }
+      .flag {
+        width: 25px;
+        margin: -35px 15px;
+      }
+      .user-name {
+        padding-left: 20px;
+      }
+      .user-name h3 {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 1.5;
+      }
+      .dash p {
+        margin: 0;
+        color: #879dad;
+        font-size: 14px;
+        width: 8em;
+      }
+      .icon-right {
+        color: rgb(74, 75, 100);
+        font-size: 12px;
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      /* btn */
+      .dashbox-content button {
+        background: #015eff;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 6px;
+        box-shadow: 0 2px 5px rgb(169 181 192 / 20%);
+        font-weight: 700;
+        color: #fff;
+        font-size: 14px;
+        width: 10em;
+      }
+      /* small screen */
+      
+      @media (max-width: 980px) {
+        .dashboard {
+          padding-left: 10px;
+          /* padding-right: 10px; */
+        }
+        .container {
+          width: 100%;
+          /* max-width: 385px; */
+        }
+        .dashbox-content {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+        }
+        .team-a {
+          display: flex;
+          padding-bottom: 20px;
+        }
+        .team-b {
+          display: flex;
+        }
+        .team-b h3 {
+          font-size: 18px;
+        }
+        button {
+          padding: 10px 10px;
+          width: 8em;
+        }
+        .team-b  {
+        display: flex;
+        flex-direction: column;
+      }
+        
+      }

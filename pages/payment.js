@@ -7,7 +7,7 @@ import SelectRecipent from "../component/payment/payment-components/SelectRecipe
 import TransferPayment from "../component/payment/payment-components/TransferPayment";
 import PaymentPayment from "../component/payment/payment-components/PaymentPayment";
 import ReviewPayments from "../component/payment/payment-components/ReviewPayments";
-import { useState } from "react";
+import React, { useState } from "react";
 
 function payment() {
   const [index, setIndex] = useState(0);
